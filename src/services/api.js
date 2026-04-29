@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'http://192.168.1.35:8080/api/v1'
+  baseURL: 'https://conflict-tracker-bgqk.onrender.com'
 })
 
 // CONFLICTS
